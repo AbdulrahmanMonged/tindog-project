@@ -1,0 +1,141 @@
+#title {
+  background-color: #ff4c68;
+  line-height: 1.5;
+  padding-top: 5rem;
+  color: white;
+}
+
+#logo {
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  font-size: 2rem;
+}
+
+#features {
+  background-color: white;
+  position: relative;
+
+  text-align: center;
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+}
+
+#features .col-lg-4 {
+  padding: 1rem 1.5rem;
+}
+
+#testimonials {
+
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+#press {
+  padding: 5rem;
+  text-align: center;
+  background-color: #ef8172;
+}
+#pricing {
+    padding: 5rem;
+  text-align: center;
+}
+#pricing .btn {
+  width: 100%;
+}
+#pricing .btn-outline-dark {
+  color: black;
+}
+#pricing .row {
+  margin-top: 5rem;
+}
+#cta {
+  text-align: center;
+  padding: 10%;
+  background-color: #ff4c68;
+}
+#cta .btn {
+  margin-top: 3%;
+}
+#cta h3 {
+  font-size: 2.5rem;
+  line-height: 2;
+  color: white;
+}
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 10%;
+}
+#footer .fa {
+  font-size: 1.5rem;
+  margin: 2%;
+}
+#footer p {
+  margin-top: 3%;
+}
+h1 {
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.5;
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+h3 {
+  font-size: 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+p {
+  color: #8f8f8f
+}
+
+.rotate180 {
+  position: relative;
+  right: 1rem;
+  z-index: 0;
+  top: 15rem;
+  width: 20rem;
+  transform: rotate(40deg);
+}
+#features .fa-solid {
+  margin-bottom: 1rem;
+  color: #ef8172;
+  font-size: 3rem;
+  text-decoration: none;
+}
+.fa-solid:hover {
+  color: #ff4c68;
+}
+
+.fa-brands:hover {
+  color: #ff4c68;
+}
+.testimonial-image {
+  margin-right: 1rem;
+  width: 10rem;
+  border-radius: 100%;
+}
+.press-logo {
+  padding: 1rem;
+  width: 12rem;
+}
+.carousel-item {
+    padding: 5rem;
+}
+
+@media (max-width: 1020px) {
+  .rotate180 {
+    position: static;
+    transform: rotate(0deg);
+    margin: 5%;
+  }
+  #title {
+    text-align: center;
+  }
+}
