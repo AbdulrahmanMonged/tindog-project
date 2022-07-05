@@ -147,14 +147,13 @@ p {
   padding: 5rem;
 }
 
-.nav-link {
+.navbar {
+  padding-right: 2rem;
+}
+/* .navbar-toggler {
   position: relative;
   right: 2rem;
-}
-.navbar-toggler {
-  position: relative;
-  right: 2rem;
-}
+} */
 
 @media (max-width: 1020px) {
   .rotate180 {
@@ -166,8 +165,8 @@ p {
   #title {
     text-align: center;
   }
-  .nav-link {
-    position: relative;
-    left: 2rem;
+  #navbarSupportedContent {
+    margin-left: 3rem;
   }
+
 }
