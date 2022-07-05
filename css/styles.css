@@ -9,6 +9,8 @@
   font-family: "Ubuntu", sans-serif;
   color: white;
   font-size: 2rem;
+  position: relative;
+  left: 2.5rem;
 }
 
 #features {
@@ -65,14 +67,15 @@
 #footer {
   background-color: #fff;
   text-align: center;
-  padding: 10%;
+
 }
 #footer .fa {
   font-size: 1.5rem;
-  margin: 2%;
+  margin: 1%;
 }
-#footer p {
-  margin-top: 3%;
+
+#title .header {
+  margin-top: 15%;
 }
 h1 {
   font-family: "Montserrat", sans-serif;
@@ -128,7 +131,10 @@ p {
 .carousel-item {
     padding: 5rem;
 }
-
+.nav-link {
+  position: relative;
+  right: 2rem;
+}
 @media (max-width: 1020px) {
   .rotate180 {
     position: static;
